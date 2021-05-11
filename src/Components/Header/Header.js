@@ -10,8 +10,6 @@ const Header = ({ searchMovie, query, setQuery, movies }) => {
             <div className="header">
                 <h1 className="title">Movie Search</h1>
 
-                {/*Search form*/}
-
                 <div className="search">
                     <form className="search-form" onSubmit={searchMovie}>
                         <label
